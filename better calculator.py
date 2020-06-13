@@ -1,3 +1,10 @@
+import turtle
+hat = turtle.Screen()
+hat.title("Calculator")
+hat.bgcolor("forestgreen")
+hat.
+
+
 num1 = float(input("Enter First Number: "))
 op = input("Enter Operator: ")
 num2 = float(input("Enter Second Number: "))
@@ -12,4 +19,6 @@ elif op == "/":
     print(num1 / num2)
 else:
     print("invalid operation")
-#f;oajfnef
+
+
+
