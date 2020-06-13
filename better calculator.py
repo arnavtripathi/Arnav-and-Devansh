@@ -11,7 +11,7 @@ iv.color("white")
 iv.penup()
 iv.hideturtle()
 iv.goto(0,160)
-iv.write("Arnav you are such a, such, a, pig! ", align="center", font=("Courier", 30, "normal"))
+iv.write("Devansh you are such a, such, a, big fat potato. A potato fatter than sid! ", align="center", font=("Courier", 30, "normal"))
 
 ik = turtle.Turtle()
 ik.color("white")
