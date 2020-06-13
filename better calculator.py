@@ -1,17 +1,21 @@
-num1 = float(input("Enter First Number: "))
-op = input("Enter Operator: ")
-num2 = float(input("Enter Second Number: "))
+import turtle
 
-if op == "+":
-    print(num1 + num2)
-elif op == "-":
-    print(num1 - num2)
-elif op == "*" or "x":
-    print(num1 * num2)
-elif op == "/":
-    print(num1 / num2)
-else:
-    print("invalid operation")
-#devansh is better at python than arnav
+wn = turtle.Screen()
+wn.title("Letter to Arnav Tripathi")
+wn.bgcolor("forestgreen")
+wn.setup(width=900, height=600)
+wn.tracer(0)
 
+iv = turtle.Turtle()
+iv.color("white")
+iv.penup()
+iv.hideturtle()
+iv.goto(0,160)
+iv.write("Arnav you are such a, such, a, pig! ", align="center", font=("Courier", 30, "normal"))
 
+ik = turtle.Turtle()
+ik.color("white")
+ik.penup()
+ik.hideturtle()
+ik.goto(0, 100)
+ik.write("Just like a ming chong and ding dong! ", align="center", font=("Courier", 30, "normal"))
