@@ -42,5 +42,10 @@ Leg2.goto(33,-140)
 Leg2.goto(33,-140)
 
 Arm1 = turtle.Turtle()
-
-Arm2 = turtle.Turtle()
+Arm1.speed(0)
+Arm1.shape("square")
+Arm1.color("purple")
+Arm1.shapesize(stretch_wid=7, stretch_len=0.5)
+Arm1.penup()
+Arm1.left(45)
+Arm1.goto(-50,60)
