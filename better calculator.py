@@ -39,3 +39,8 @@ Leg2.shapesize(stretch_wid=5, stretch_len=0.5)
 Leg2.penup()
 Leg2.left(45)
 Leg2.goto(33,-140)
+Leg2.goto(33,-140)
+
+Arm1 = turtle.Turtle()
+
+Arm2 = turtle.Turtle()
