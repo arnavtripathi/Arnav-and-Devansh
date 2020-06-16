@@ -42,6 +42,7 @@ Leg2.goto(33,-140)
 Leg2.goto(33,-140)
 
 Arm1 = turtle.Turtle()
+<<<<<<< HEAD
 Arm1.speed(0)
 Arm1.shape("square")
 Arm1.color("purple")
@@ -49,3 +50,13 @@ Arm1.shapesize(stretch_wid=7, stretch_len=0.5)
 Arm1.penup()
 Arm1.left(45)
 Arm1.goto(-50,60)
+
+Arm2 = turtle.Turtle()
+Arm2.speed(0)
+Arm2.shape("square")
+Arm2.color("purple")
+Arm2.shapesize(stretch_wid=7, stretch_len=0.5)
+Arm2.penup()
+Arm2.left(45)
+Arm2.goto(50,60)
+>>>>>>> ba419b508bc1a91de8c0ca0720f3eaf3bb367e03
