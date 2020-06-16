@@ -87,11 +87,11 @@ Hat1.shapesize(stretch_wid =.6, stretch_len=6.5)
 Hat1.penup()
 Hat1.goto(0, 250)
 
-Hat1 = turtle.Turtle()
-Hat1.shape("square")
-Hat1.color("black")
-Hat1.shapesize(stretch_wid =2, stretch_len=4)
-Hat1.penup()
-Hat1.goto(0, 270)
+Hat2 = turtle.Turtle()
+Hat2.shape("square")
+Hat2.color("black")
+Hat2.shapesize(stretch_wid =2, stretch_len=4)
+Hat2.penup()
+Hat2.goto(0, 270)
 
 
