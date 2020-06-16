@@ -58,3 +58,4 @@ Arm2.shapesize(stretch_wid=7, stretch_len=0.5)
 Arm2.penup()
 Arm2.right(45)
 Arm2.goto(50,150)
+
