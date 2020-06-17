@@ -1,4 +1,4 @@
-iimport turtle
+import turtle
 
 wn = turtle.Screen()
 wn.title("Stickman 1.1")
