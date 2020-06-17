@@ -1,4 +1,4 @@
-import turtle
+iimport turtle
 
 wn = turtle.Screen()
 wn.title("Stickman 1.1")
@@ -60,6 +60,7 @@ Arm2.right(45)
 Arm2.goto(50,150)
 
 Mouth1 = turtle.Turtle()
+Mouth1.speed(0)
 Mouth1.shape("circle")
 Mouth1.color("red")
 Mouth1.shapesize(stretch_wid=0.5, stretch_len=2)
@@ -67,6 +68,7 @@ Mouth1.penup()
 Mouth1.goto(2,175)
 
 Eye1 = turtle.Turtle()
+Eye1.speed(0)
 Eye1.shape("circle")
 Eye1.color("orange")
 Eye1.shapesize(stretch_wid=.5, stretch_len=.5)
@@ -74,6 +76,7 @@ Eye1.penup()
 Eye1.goto(-20,200)
 
 Eye2 = turtle.Turtle()
+Eye2.speed(0)
 Eye2.shape("circle")
 Eye2.color("orange")
 Eye2.shapesize(stretch_wid=.5, stretch_len=.5)
@@ -81,6 +84,7 @@ Eye2.penup()
 Eye2.goto(20,200)
 
 Hat1 = turtle.Turtle()
+Hat1.speed(0)
 Hat1.shape("square")
 Hat1.color("black")
 Hat1.shapesize(stretch_wid =.6, stretch_len=6.5)
@@ -88,10 +92,21 @@ Hat1.penup()
 Hat1.goto(0, 250)
 
 Hat2 = turtle.Turtle()
+Hat2.speed(0)
 Hat2.shape("square")
 Hat2.color("black")
 Hat2.shapesize(stretch_wid =2, stretch_len=4)
 Hat2.penup()
 Hat2.goto(0, 270)
-
+while True:
+    Arm1.speed(2)
+    while Arm1.left(45):
+        Arm1.right(45)
+    while Arm1.right(45):
+        Arm1.left(45)
+    Arm2.speed(2)
+    while Arm2.right(45):
+        Arm2.left(45)
+    while Arm2.left(45):
+        Arm2.right(45)
 
