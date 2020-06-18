@@ -98,15 +98,3 @@ Hat2.color("black")
 Hat2.shapesize(stretch_wid =2, stretch_len=4)
 Hat2.penup()
 Hat2.goto(0, 270)
-while True:
-    Arm1.speed(2)
-    while Arm1.left(45):
-        Arm1.right(45)
-    while Arm1.right(45):
-        Arm1.left(45)
-    Arm2.speed(2)
-    while Arm2.right(45):
-        Arm2.left(45)
-    while Arm2.left(45):
-        Arm2.right(45)
-
